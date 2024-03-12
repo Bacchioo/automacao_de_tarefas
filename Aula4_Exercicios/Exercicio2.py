@@ -38,3 +38,5 @@ elif operador == "*":
 elif operador == "/":
     divisão = n1 / n2
     print("Essa será a divisão dos dois números:",divisão)
+else:
+    print("Operador desconhecido")
