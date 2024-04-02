@@ -1,0 +1,10 @@
+import pyautogui
+
+pyautogui.moveTo(950, 540, duration = 2)
+
+pyautogui.moveRel(150,0, duration = 2)
+pyautogui.moveRel(0,150, duration = 2)
+pyautogui.moveRel(-150,0, duration = 2)
+pyautogui.moveRel(0,-150, duration = 2)
+
+        
