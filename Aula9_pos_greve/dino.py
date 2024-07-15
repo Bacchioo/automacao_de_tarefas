@@ -1,5 +1,4 @@
 import pyautogui
-import pyscreeze
 
 pyautogui.click(200, 200, interval = .5)
 pyautogui.press('space')
