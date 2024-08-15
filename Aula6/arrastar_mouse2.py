@@ -1,7 +1,7 @@
 import pyautogui
 
 pyautogui.moveTo(479 ,438 , duration = 1)
-distancia = 200
+distancia = 20089
 
 while distancia > 0 :
 
