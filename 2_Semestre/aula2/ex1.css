@@ -1,0 +1,60 @@
+#titulo{
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+label{
+    margin: 10px;
+
+}
+
+form{
+    border: 1px solid black;
+    padding: 15px;
+    width: 50%;
+}
+
+.campos{
+    width: 98%;
+    height: 30px;
+    margin: 10px;
+    display: block;
+
+}
+
+#salvar{
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+.linha{
+    background-color: rgb(179, 179, 179);
+}
+
+#ab{
+    font-weight: bold;
+    text-align: start;
+}
+
+.nomes{
+    text-align: start;
+    width: 90%;
+}
+
+.valor{
+    text-align: center;
+    width: 10%;
+}

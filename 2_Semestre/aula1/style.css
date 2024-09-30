@@ -1,0 +1,29 @@
+h1{
+    font-size: 35pt;
+}
+p{
+    font-size: 20pt;
+    color: black;
+}
+
+ol{
+    font-size: 15pt;
+    color: red;
+}
+
+a{
+    font-style: italic;
+    color: violet;
+}
+
+tr{
+    background-color: white;
+}
+
+.gra{
+    background-color: gray;
+}
+
+#titulo{
+    color: darkslategray;
+}
