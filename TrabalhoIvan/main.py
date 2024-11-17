@@ -33,8 +33,9 @@ while contador < 10:
 
     wget.download(enderecoImage, ondeSalvar)
 
-    print("Nome: ", elementNome[contador].text)
+    print("\nNome: ", elementNome[contador].text)
     print("Preço: ", elementPreco[contador].text)
+    print("\n")
 
     #adiciona os dados na planilha
     planilha.loc[contador] = [elementNome[contador].text, elementPreco[contador].text, nomeImagem]
@@ -42,8 +43,11 @@ while contador < 10:
     #incremento para a parada do while
     contador = contador + 1
 
+ondeSalvarPlan = "TrabalhoIvan"
+
 #salva a planilha em formato excel
-planilha.to_excel('RATOS.xlsx', index = True)
+planilha.to_excel("TrabalhoIvan\\RATOS.xlsx", index = True)
+
 
 
 #mantém a página aberta
